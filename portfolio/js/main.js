@@ -16,10 +16,10 @@ $(function(){
       var scroll = $('#contact').offset().top;
       $('body,html').animate({scrollTop:scroll},1000);
    });
-   $('.pofol li a').click(function(){
+   $('.pofol li').click(function(){
       var scroll = $('.pofol_screen').offset().top -140;
       $('body,html').animate({scrollTop:scroll},500);
-      $('.view_list').fadeIn(2000);
+      // $('.view_list').fadeIn(2000);
    });
    $('.pofol_list li:nth-child(2)').click(function(){
     $('.pofol .respon, .pofol .mobile').addClass('on');
@@ -29,7 +29,7 @@ $(function(){
    });
    $('.pofol li').click(function(){
       var pofol = $(this).index();
-      $('.pofol_view li').eq(pofol).show().siblings().hide();
+      $('.pofol_view li').eq(pofol).fadeIn(2000).siblings().hide();
    });
    $(window).scroll(function(){
       var num = $(document).scrollTop();

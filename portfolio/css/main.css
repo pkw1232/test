@@ -76,6 +76,21 @@ body{font-family: 'Noto Sans KR', sans-serif;}
 #myworks .pofol_screen .pofol_view .view_list{display:none;}
 #myworks .pofol_screen .pofol_view .view_list .view{display:block; width: 800px;height: 600px; background: url("../images/respon1.jpg") no-repeat center top; background-size: cover;margin:0 auto}
 #myworks .pofol_screen .pofol_view .view_img2 .view{display:block; width: 800px;height: 600px; background: url("../images/respon2.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img3 .view{display:block; width: 800px;height: 600px; background: url("../images/respon3.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img4 .view{display:block; width: 800px;height: 600px; background: url("../images/mkmobile1.png") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img5 .view{display:block; width: 800px;height: 600px; background: url("../images/mkmobile2.png") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img6 .view{display:block; width: 800px;height: 600px; background: url("../images/mkmobile3.png") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img7 .view{display:block; width: 800px;height: 600px; background: url("../images/mkmobile4.png") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img8 .view{display:block; width: 800px;height: 600px; background: url("../images/mkmobile5.png") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img9 .view{display:block; width: 800px;height: 600px; background: url("../images/web1.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img10 .view{display:block; width: 800px;height: 600px; background: url("../images/web2.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img11 .view{display:block; width: 800px;height: 600px; background: url("../images/web3.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img12 .view{display:block; width: 800px;height: 600px; background: url("../images/web4.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img13 .view{display:block; width: 800px;height: 600px; background: url("../images/web5.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img14 .view{display:block; width: 800px;height: 600px; background: url("../images/web6.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img15 .view{display:block; width: 800px;height: 600px; background: url("../images/web7.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+#myworks .pofol_screen .pofol_view .view_img16 .view{display:block; width: 800px;height: 600px; background: url("../images/web8.jpg") no-repeat center top; background-size: cover;margin:0 auto}
+
 
 #myworks .pofol_screen .pofol_view .view_list span{display:block;text-align: center;font-size:30px;}
 #myworks .pofol_screen .pofol_view h3{text-align: center;margin: 20px 0px 30px;}
