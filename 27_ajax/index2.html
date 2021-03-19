@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/vue.js"></script>
+</head>
+<style>
+    #app{width: 700px;margin:0 auto;position: relative;text-align: center;}
+    h1{text-align: center;font-size:50px;margin-bottom: 20px;}
+    table{border:2px solid #000; border-collapse: collapse;margin:0 auto;margin-bottom: 20px;}
+    td{border:1px solid #000;text-align: center;padding: 5px 20px;}
+    tr:first-child{background: skyblue;}
+    
+</style>
+<body>
+    <div id="app">
+        <h1>대우학교1반성적표</h1>
+        <table>
+            <tr v-for="todo in todos">
+                <td>{{todo.tit}}</td>
+                <td>{{todo.name}}</td>
+                <td>{{todo.gender}}</td>
+                <td>{{todo.kor}}</td>
+                <td>{{todo.history}}</td>
+                <td>{{todo.meth}}</td>
+                <td>{{todo.eng}}</td>
+                <td>{{todo.cmc}}</td>
+            </tr>
+        </table>
+        <button type="button" @click="pushData()">데이타추가</button>
+        <button type="button" @click="popData()">데이타삭제</button>
+    </div>
+    <script>
+        var vm = new Vue({
+            el:"#app",
+            data:{
+                todos:[
+                    {
+                        tit:"출석번호",
+                        name:"이름",
+                        gender:"성별",
+                        kor:"국어",
+                        history:"역사",
+                        meth:"수학",
+                        eng:"영어",
+                        cmc:"화학"
+                    },
+                    {
+                        tit:"1",
+                        name:"이인포",
+                        gender:"남자",
+                        kor:98,
+                        history:100,
+                        meth:100,
+                        eng:50,
+                        cmc:70
+                    },
+                    {
+                        tit:"2",
+                        name:"손포아",
+                        gender:"남자",
+                        kor:100,
+                        history:98,
+                        meth:60,
+                        eng:55,
+                        cmc:50
+                    },
+                    {
+                        tit:"3",
+                        name:"김모포",
+                        gender:"남자",
+                        kor:100,
+                        history:91,
+                        meth:95,
+                        eng:54,
+                        cmc:55
+                    },
+                    {
+                        tit:"4",
+                        name:"김아아",
+                        gender:"여자",
+                        kor:95,
+                        history:94,
+                        meth:94,
+                        eng:89,
+                        cmc:56
+                    },
+                    {
+                        tit:"5",
+                        name:"인포모",
+                        gender:"여자",
+                        kor:99,
+                        history:88,
+                        meth:93,
+                        eng:97,
+                        cmc:54
+                    },
+                    {
+                        tit:"6",
+                        name:"인포아",
+                        gender:"남자",
+                        kor:96,
+                        history:84,
+                        meth:95,
+                        eng:95,
+                        cmc:53
+                    },
+                    {
+                        tit:"7",
+                        name:"모아인",
+                        gender:"여자",
+                        kor:99,
+                        history:90,
+                        meth:98,
+                        eng:70,
+                        cmc:52
+                    },
+                    {
+                        tit:"8",
+                        name:"정포모",
+                        gender:"여자",
+                        kor:99,
+                        history:93,
+                        meth:97,
+                        eng:88,
+                        cmc:78
+                    },
+                    {
+                        tit:"9",
+                        name:"이포모",
+                        gender:"남자",
+                        kor:83,
+                        history:85,
+                        meth:82,
+                        eng:83,
+                        cmc:84
+                    },
+                ]
+            },
+            methods:{
+                pushData(){
+                    this.todos.push({tit:"10",name:"홍길동",gender:"남자",kor:50,history:100,meth:100,eng:0,cmc:50});
+                },
+                popData(){
+                    this.todos.pop();
+                }
+            }
+        })
+    </script>
+</body>
+</html>
